@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>    
+  <meta charset=UTF-8>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>ONE - Decodificador</title>
+ </head>
+   
+ <body>
+  <h1><header class="cabecalho"><img src="img/LogoAlura.png" alt="Alura Logo"></h1> 
+      <nav class="cabecalho-container">   
+      <a class="cabecalho-menu-item" href="https://www.alura.com.br/">Alura</a>
+      <a class="cabecalho-menu-item" href="https://www.oracle.com/br/education/oracle-next-education/">Oracle ONE</a>
+      <a class="cabecalho-menu-item" href="https://github.com/ellenjess">My GitHub</a>  
+      <a class="cabecalho-menu-item" href="https://www.linkedin.com/in/jessica-cardoso-181a0b25b/">My LinkedIn</a>
+     </nav>
+    </header>
+
+ 
+  <main>
+        <section class="input-text-field">
+          <textarea class="text-area" id="textarea" cols="41" rows="4" placeholder="Digite seu texto aqui..."></textarea>
+          <div class="informação">
+            <img src="img/Aviso.png" alt="Aviso"></img>
+          </div>
+          
+          <div>
+            <button class=botaocrip id="botaocriptografar" onclick="botaoCriptografar()">Criptografar</button>        
+            <button class= botaodescrip id="botaodescriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+          </div>
+         </section>
+          
+
+        <section class="output-text-field">
+          <!--<textarea class="mensagem" cols="20" rows="10"></textarea>-->
+          <img class="mensagem-imagem" src="./Img/bonecoazul.png" alt="Boneco">
+          <h2>Nenhuma mensagem encontrada!</h2>
+          <h2>Digite o que você deseja <br> criptografar ou descriptografar.</h2>
+          <!--<button class="botao-copy" id="botaocopy" onclick="copiar()">Copiar</button>-->        
+        </section> 
+
+
+  </main>
+
+  <footer>
+    <h2>Produzido por Ellen Jessica - 2023</h2>
+</footer>
+
+    <script src="js.js"></script>
+ </body>
+</html>
